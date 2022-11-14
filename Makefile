@@ -1,5 +1,5 @@
 project_name = vaddiApp
-c =
+c = 
 
 # Clean packages
 run:
