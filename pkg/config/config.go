@@ -14,7 +14,7 @@ type Config struct {
 }
 
 func Data() Config{
-	file, err := os.ReadFile("config.json")
+	file, err := os.ReadFile("cmd/vaddi/config.json")
 	if err != nil {
 		fmt.Println("something wrong with opening json file")
 	}
