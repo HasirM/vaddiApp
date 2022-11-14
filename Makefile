@@ -10,7 +10,4 @@ run:
 git:
 	git add .
 	git commit -m "$(c)"
-
-# Generate docker image
-push:
 	git push
