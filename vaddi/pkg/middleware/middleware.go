@@ -1,4 +1,4 @@
-package controllers
+package middleware
 
 import (
 	// "fmt"
@@ -43,7 +43,7 @@ func Validate(c *fiber.Ctx) error {
 	if !user.IsAdmin {
 		c.Status(fiber.StatusUnauthorized)
 		return c.JSON(fiber.Map{
-			"message": "Unauthorized the user doesn't have access to do this operation! Contact admin for more info",
+			"message": "Unauthorized the user doesnt have access to do this operation! Contact admin for more info",
 		})
 	}
 	// createAJWTandRJWT(c)
