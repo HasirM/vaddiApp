@@ -2,9 +2,12 @@ package database
 
 import (
 	"fmt"
-	"vaddi/models"
+	// "os"
 
-	"github.com/hasirm/vaddi/controllers"
+	"github.com/hasirm/vaddiapp/pkg/models"
+	"github.com/hasirm/vaddiapp/pkg/config"
+
+	// "github.com/joho/godotenv"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
@@ -12,8 +15,8 @@ import (
 var DB *gorm.DB
 
 func Connect() {
-
-	dsn := controllers.GetENV["USERNAME"] + ":" + controllers.GetENV["PASSWORD"] + "@/" + controllers.GetENV["DB_NAME"]
+	dsn := config.Data().DBUsername + ":" + config.Data().DBPassword + "@/" + config.Data().DBName
+	// dsn := "root:password@/vaddi_db"
 
 	connection, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 

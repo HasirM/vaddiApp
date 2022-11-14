@@ -1,4 +1,4 @@
-module vaddi
+module github.com/hasirm/vaddiapp
 
 go 1.19
 
