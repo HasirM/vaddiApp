@@ -1,11 +1,9 @@
 package routes
 
 import (
-	"net/http"
-
 	"github.com/gofiber/fiber/v2"
 	jwtware "github.com/gofiber/jwt/v3"
-	"github.com/hasirm/vaddiapp/pkg/middleware"
+	"github.com/hasirm/vaddiapp/vaddi/pkg/middleware"
 )
 
 func Setup(app *fiber.App) {

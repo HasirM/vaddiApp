@@ -8,9 +8,9 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
-	// "github.com/hasirm/vaddiapp/pkg/config"
-	"github.com/hasirm/vaddiapp/pkg/database"
-	"github.com/hasirm/vaddiapp/pkg/routes"
+	// "github.com/hasirm/vaddiapp/vaddi/pkg/config"
+	"github.com/hasirm/vaddiapp/vaddi/pkg/database"
+	"github.com/hasirm/vaddiapp/vaddi/pkg/routes"
 )
 
 func main() {

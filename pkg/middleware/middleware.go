@@ -6,9 +6,9 @@ import (
 
 	// "github.com/dgrijalva/jwt-go"
 	"github.com/gofiber/fiber/v2"
-	"github.com/hasirm/vaddiapp/pkg/config"
-	"github.com/hasirm/vaddiapp/pkg/database"
-	"github.com/hasirm/vaddiapp/pkg/models"
+	"github.com/hasirm/vaddiapp/vaddi/pkg/config"
+	"github.com/hasirm/vaddiapp/vaddi/pkg/database"
+	"github.com/hasirm/vaddiapp/vaddi/pkg/models"
 	"golang.org/x/crypto/bcrypt"
 )
 

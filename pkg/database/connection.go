@@ -4,8 +4,8 @@ import (
 	"fmt"
 	// "os"
 
-	"github.com/hasirm/vaddiapp/pkg/models"
-	"github.com/hasirm/vaddiapp/pkg/config"
+	"github.com/hasirm/vaddiapp/vaddi/pkg/config"
+	"github.com/hasirm/vaddiapp/vaddi/pkg/models"
 
 	// "github.com/joho/godotenv"
 	"gorm.io/driver/mysql"

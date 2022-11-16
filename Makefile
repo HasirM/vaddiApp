@@ -1,4 +1,4 @@
-project_name = vaddiApp
+project_name = vaddiapp/vaddi
 c = 
 
 # Clean packages
